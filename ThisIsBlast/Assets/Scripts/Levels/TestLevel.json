@@ -1,0 +1,41 @@
+{
+  "grid": {
+    "rows": [
+      { "cells": ["Y","Y","Y","Y","Y","Y","Y","Y","Y","Y"] },
+      { "cells": ["Y","Y","Y","Y","Y","R","R","R","R","R"] },
+      { "cells": ["R","R","R","R","R","B","B","B","B","B"] },
+      { "cells": ["B","B","B","B","B","G","G","G","G","G"] },
+      { "cells": ["G","G","G","G","G","G","G","G","G","G"] },
+      { "cells": ["O","O","O","O","O","O","O","O","O","O"] },
+      { "cells": ["R","R","R","R","R","O","O","O","O","O"] },
+      { "cells": ["B","B","B","B","B","G","G","G","G","G"] },
+      { "cells": ["O","O","O","O","O","O","O","O","O","O"] },
+      { "cells": ["B","B","B","B","B","Y","Y","Y","Y","Y"] }
+    ]
+  },
+  "shooter": {
+    "rows": [
+      { "columns": [
+        { "color":"Y", "bulletCount":12, "hidden":false },
+        { "color":"B", "bulletCount":5, "hidden":true },
+        { "color":"O", "bulletCount":10, "hidden":false }
+      ]},
+      { "columns": [
+        { "color":"R", "bulletCount":10, "hidden":false },
+        { "color":"O", "bulletCount":5, "hidden":false },
+        { "color":"R", "bulletCount":5, "hidden":true }
+      ]},
+      { "columns": [
+        { "color":"B", "bulletCount":10, "hidden":false },
+        { "color":"Y", "bulletCount":3, "hidden":false },
+        { "color":"G", "bulletCount":5, "hidden":true }
+      ]},
+      { "columns": [
+        { "color":"O", "bulletCount":10, "hidden":false },
+        { "color":"G", "bulletCount":15, "hidden":true },
+        { "color":"B", "bulletCount":5, "hidden":false },
+        { "color":"Y", "bulletCount":5, "hidden":false }
+      ]}
+    ]
+  }
+}
